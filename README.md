@@ -1,5 +1,5 @@
 # Unscentedkalman
-This code implants an unscented Kaman filter.
+This code implements an unscented Kaman filter.
 
 
 # Instructions to test this code:
@@ -21,7 +21,7 @@ This code implants an unscented Kaman filter.
        select as destination: "resources".
        click on "+"" and select "add other" then browse and select the two input data files
 
-# Change directory to the location of the executable:
-# cd UnscentedKalmanproject1/build/src/dEBUG/
+# Change directory to the location of the executable (this path is for compilation using xcode):
+# cd UnscentedKalman/build/src/Debug/
 # launch the executable
-# ./Kalmanproject sample-laser-radar-measurement-data-1.txt output.txt
+# ./UnscentedKalmanProject sample-laser-radar-measurement-data-1.txt output.txt
